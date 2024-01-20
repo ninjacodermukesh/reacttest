@@ -1,0 +1,26 @@
+{
+  "Buttons": {
+    "view_button": "Ver",
+    "edit_button": "Editar",
+    "delete_button": "Eliminar",
+    "register_user": "Registrar Usuario",
+    "submit": "Enviar",
+    "reset": "Reiniciar"
+  },
+  "FieldHeadings": {
+    "id": "ID",
+    "fullname": "Nombre completo",
+    "username": "Nombre de usuario",
+    "action": "Acción"
+  },
+  "ModalTitles": {
+    "register_user": "Registrar Usuario",
+    "view_user": "Ver Usuario",
+    "edit_user": "Editar Usuario",
+    "view_news": "Ver Noticias"
+  },
+  "Menu": {
+    "users": "Usuarios",
+    "news": "Noticias"
+  }
+}

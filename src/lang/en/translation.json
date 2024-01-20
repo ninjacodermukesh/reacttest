@@ -1,0 +1,26 @@
+{
+  "Buttons": {
+    "view_button": "View",
+    "edit_button": "Edit",
+    "delete_button": "Delete",
+    "register_user": "Register User",
+    "submit": "Submit",
+    "reset": "Reset"
+  },
+  "FieldHeadings": {
+    "id": "ID",
+    "fullname": "Fullname",
+    "username": "Username",
+    "action": "Action"
+  },
+  "ModalTitles": {
+    "register_user": "Register User",
+    "view_user": "View User",
+    "edit_user": "Edit User",
+    "view_news": "View News"
+  },
+  "Menu": {
+    "users": "Users",
+    "news": "News"
+  }
+}
