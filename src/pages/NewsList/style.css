@@ -1,6 +1,12 @@
-.card {
+.newsList .card {
     text-align: left !important;
 }
-.action-button {
-    margin-left: 5px !important;
+.newsList .card-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.newsList .action-button {
+    margin-left: auto !important;
+    
 }

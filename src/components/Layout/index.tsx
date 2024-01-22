@@ -1,14 +1,12 @@
 import React, { ReactNode } from "react";
-
-interface LayoutProps {
+interface Props {
   children: ReactNode;
 }
 
-export const Layout: React.FC<LayoutProps> = ({ children }) => {
+export const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div className="d-flex" id="wrapper">
       {children}
     </div>
   );
 };
-

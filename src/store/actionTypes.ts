@@ -3,6 +3,7 @@ export const userActions = {
   EDIT_USER: "EDIT_USER",
   GET_USER_LIST: "GET_USER_LIST",
   DELETE_USER: "DELETE_USER",
+  SELECTED_USER: "SELECTED_USER",
 };
 
 export const newsActions = {

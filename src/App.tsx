@@ -1,7 +1,8 @@
-import React from "react";
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { NewsListView, UserListView } from "./pages";
+import { ToastContainer } from "react-toastify";
+import { NewsListView, UserListView, UserView } from "./pages";
+import "./App.css";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -10,9 +11,11 @@ function App() {
         <Routes>
           <Route path="/" element={<NewsListView />} />
           <Route path="/users" element={<UserListView />} />
+          <Route path="/user/:userId" element={<UserView />} />
           <Route path="/news" element={<NewsListView />} />
         </Routes>
       </BrowserRouter>
+      <ToastContainer autoClose={2000} />
     </div>
   );
 }
