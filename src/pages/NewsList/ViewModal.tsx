@@ -1,12 +1,13 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { PopupModal } from "../../components";
-import { NewsData } from "../../types/newsTypes";
+import { NewsData } from "../../types/types";
 interface Props {
   show: boolean;
   onHide: () => void;
   newsData: NewsData;
 }
+
 export const ViewModal: React.FC<Props> = ({ show, onHide, newsData }) => {
   const { t } = useTranslation();
 

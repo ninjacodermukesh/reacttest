@@ -1,4 +1,4 @@
-import { NewsState } from "../../types/newsTypes";
+import { NewsState } from "../../types/types";
 import { newsActions } from "../actionTypes";
 
 const getInitialState = (): NewsState => ({

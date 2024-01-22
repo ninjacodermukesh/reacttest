@@ -6,15 +6,14 @@ import { ThunkDispatch } from "redux-thunk";
 import { Action } from "redux";
 import { toast } from "react-toastify";
 import { PopupModal } from "../../components";
-import { RootState } from "../../types/types";
-import { UserData } from "../../types/userTypes";
+import { RootState, UserData } from "../../types/types";
 import { deleteUser } from "../../store/actions/userActions";
-
 interface Props {
   show: boolean;
   onHide: () => void;
   userData: UserData;
 }
+
 export const DeleteModal: React.FC<Props> = ({ show, onHide, userData }) => {
   const { t } = useTranslation();
   const dispatch = useDispatch<ThunkDispatch<RootState, any, Action>>();

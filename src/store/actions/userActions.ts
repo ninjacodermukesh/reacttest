@@ -1,4 +1,4 @@
-import { UserData } from "../../types/userTypes";
+import { UserData } from "../../types/types";
 import { userActions } from "../actionTypes";
 
 export const createUser = (payload: UserData) => {

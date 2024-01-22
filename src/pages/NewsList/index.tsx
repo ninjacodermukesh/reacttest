@@ -6,8 +6,7 @@ import { Action } from "redux";
 import { ThunkDispatch } from "redux-thunk";
 import { Layout, Sidebar } from "../../components";
 import { ViewModal } from "./ViewModal";
-import { RootState } from "../../types/types";
-import { NewsData } from "../../types/newsTypes";
+import { NewsData, RootState } from "../../types/types";
 import { getNewsList } from "../../store/actions/newsActions";
 import "./style.css";
 

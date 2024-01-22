@@ -9,8 +9,7 @@ import { ThunkDispatch } from "redux-thunk";
 import { useTranslation } from "react-i18next";
 import { toast } from "react-toastify";
 import { PopupModal } from "../../components";
-import { RootState } from "../../types/types";
-import { UserData } from "../../types/userTypes";
+import { RootState, UserData } from "../../types/types";
 import { editUser } from "../../store/actions/userActions";
 
 interface Props {

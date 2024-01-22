@@ -7,14 +7,12 @@ import { Header, Layout, Sidebar } from "../../components";
 import { EditModal } from "./EditModal";
 import { ViewModal } from "./ViewModal";
 import { DeleteModal } from "./DeleteModal";
-import { RootState } from "../../types/types";
-import { UserData } from "../../types/userTypes";
+import { RootState, UserData } from "../../types/types";
 import "./style.css";
 
 export const UserListView: React.FC = () => {
   const { t } = useTranslation();
   const location = window.location;
-
   const userList = useSelector((state: RootState) => state.users.users);
   const [editModal, setEditModal] = useState<boolean>(false);
   const [viewModal, setViewModal] = useState<boolean>(false);

@@ -1,5 +1,5 @@
 import { userActions } from "../actionTypes";
-import { UserState } from "../../types/userTypes";
+import { UserState } from "../../types/types";
 import userListData from "../../userMockData.json";
 
 const getInitialState = (): UserState => ({
