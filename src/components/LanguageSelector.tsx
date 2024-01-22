@@ -11,9 +11,13 @@ const LanguageSelector: React.FC = () => {
 
   return (
     <div className="form-group">
-      <select className="p-1" onChange={(e) => changeLanguage(e.target.value)}>
-        <option value="en">En</option>
-        <option value="es">Es</option>
+      <select
+        className="p-1"
+        value={i18n.language}
+        onChange={(e) => changeLanguage(e.target.value)}
+      >
+        <option value="en">EN</option>
+        <option value="es">ES</option>
       </select>
     </div>
   );

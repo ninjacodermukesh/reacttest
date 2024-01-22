@@ -12,8 +12,8 @@
   },
   "Headings": {
     "id": "ID",
-    "fullname": "Fullname",
-    "username": "Username",
+    "fullname": "FullName",
+    "username": "UserName",
     "action": "Action",
     "user_details": "User Details"
   },
@@ -35,7 +35,7 @@
     "confirmation_message": "Are you sure want to delete this user?",
     "no_user_record_found": "No user records found",
     "error_copy": "Error copying to clipboard",
-    "url_copied_success": "Url copied successfully"
+    "url_copied_success": "Url has been copied successfully"
   },
   "Validations": {
     "fullname_required": "Fullname is required!",
