@@ -42,6 +42,7 @@ export const NewsListView: React.FC = () => {
       <Sidebar />
       <div id="page-content-wrapper">
         <div className="newsList container-fluid mt-4 mb-4">
+        <h1 className="font-weight-light mb-4">{t("Menu.news")}</h1>
           <div className="row">
             {newsList?.length > 0 &&
               newsList.map((news) => (

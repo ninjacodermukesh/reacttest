@@ -76,7 +76,8 @@ export const UserListView: React.FC = () => {
       <div id="page-content-wrapper">
         <Header />
         <div className="userList">
-          <div className="table-responsive mt-3">
+          <h1 className="font-weight-light mt-2 mb-4">{t("Menu.users")}</h1>
+          <div className="table-responsive mt-3" style={{margin:"0 20px"}}>
             <Table className="table" striped responsive>
               <thead>
                 <tr>
